@@ -1,0 +1,444 @@
+/*ESTILOS GENERALES*/
+
+*{
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body{
+  width: 1900px;
+}
+
+.contenedor{
+  width: 1850px;
+  margin: 0px auto;
+}
+
+
+/*BARRA CABECERA GENERAL*/
+
+.header .top-header{
+  padding: 5px 0px;
+  font-size: 15px;
+  background-color: #e2f0fc;
+  overflow: hidden;
+  font-family: panama;
+  font-weight: 600;
+
+}
+
+/*BARRA MENU: INICIO-SOBRE MI-CONTACTO IZQUIERDA*/
+.header .top-header .contenedor .top-menu{
+  float: left;
+}
+
+.header .top-header .contenedor .top-menu ul{
+  list-style: none;
+}
+
+/*A LA IZQUIERDA*/
+.header .top-header .contenedor .top-menu ul li{
+  float: left;
+}
+
+/*EN FILA*/
+.header .top-header .contenedor .top-menu ul li a{
+  text-decoration: none;
+  color: #000000;
+  padding: 20px 20px;
+  display: inline-block;
+
+}
+
+/*AL PASAR EL RATON*/
+.header .top-header .contenedor .top-menu ul li a:hover{
+  color: #8b919c
+}
+
+
+/*BARRA REDES-ICONOS derecha*/
+.header .top-header .contenedor .top-redes{
+  float: right;
+}
+
+
+.header .top-header .contenedor .top-redes ul{
+  list-style: none;
+}
+
+/*A LA DERECHA*/
+.header .top-header .contenedor .top-redes ul li{
+  float: right;
+}
+
+/*EN FILA*/
+.header .top-header .contenedor .top-redes ul li a{
+  padding: 10px 10px;
+  display: inline-block;
+}
+
+
+/*BARRA REDES TAMAÑO ICONOS*/
+.header .top-header .contenedor .top-redes ul li img{
+  height: 35px;
+  weight: 35px;
+}
+
+/*TITULOBLOG GENERAL*/
+.titulo-blog .contenedor{
+  margin: 170px auto;
+  text-align:  center;
+  margin-right: 40px;
+}
+
+/*TITULO NOMBRE*/
+.titulo-blog .contenedor h1{
+ text-decoration: underline;
+ color: #000000;
+ font-size: 90px;
+ display: inline-block;
+ padding: 0px 0;
+ font-weight: 600;
+ font-family: panama;
+}
+
+/*TITULO-SUBTITULO*/
+.titulo-blog .contenedor .subtitulo{
+  font-size: 40px;
+  text-decoration: none;
+  margin: 60px;
+  letter-spacing: 2px;
+  color: #787878;
+  font-family: maxwell light;
+  font-weight: 500;
+}
+/*MENU PRINCIPAL*/
+.menu-principal{
+  margin-bottom: 70px;
+  border-top: 1px solid #ebebec;
+  border-bottom: 1px solid #ebebec;
+  text-align: center;
+  padding: 5px 0;
+  background-color: #fcfcfc;
+  font-family: maxwell light;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.menu-principal .contenedor ul{
+  list-style: none;
+  display: inline-block;
+}
+
+/*EN LINEA*/
+.menu-principal .contenedor ul li{
+  display: inline-block;
+}
+
+.menu-principal .contenedor ul li a{
+  display: inline-block;
+  padding: 5px 5px;
+  margin: 10px 90px;;
+  text-decoration: none;
+  color: #000000;
+}
+
+/*AL PASAR RATON*/
+.menu-principal .contenedor ul li a:hover{
+  color: #8b919c;
+}
+
+/*BANNERPRINCIPAL*/
+.main .banner .contenedor .banner-principal img{
+  border-bottom: 1px solid #9e9e9e;
+  border-top: 1px solid #9e9e9e;
+  border-left: 1px solid #9e9e9e;
+  border-right: 1px solid #9e9e9e;
+  height: 220px;
+  margin-left: 280px;
+  margin-bottom: 80px;
+  margin-top: 30px;
+}
+
+
+
+
+/*TIPOGRAFIASDEARTICULOS*/
+h2{
+  font-family: maxwell light;
+  font-size: 30px;
+  color: #000000;
+}
+
+h3{
+  font-family: maxwell light;
+  font-size: 40px;
+  color: #000000;
+}
+
+p{
+  font-family: maxwell light;
+  font-size: 22px;
+  color: #000000;
+}
+
+
+
+/*BLOG ARTICULOS*/
+.blog{
+  padding: 20px;
+
+}
+
+.blog .contenedor{
+  overflow: hidden;
+
+}
+
+/*ANCHO DE ARTICULOS*/
+.blog .contenedor .articulos-blog{
+  float: left;
+  width: 1200px;
+
+
+
+
+}
+
+/*ARTICULOS EN GENERAL*/
+.blog .contenedor .articulos-blog .articulo{
+  background: #fcfcfc;
+  padding: 10px;
+  border: 1px solid #9e9e9e;
+  margin-bottom: 10px;
+  margin-left: 70px;
+
+
+
+}
+
+
+
+
+/*ARTICULOS*/
+
+.blog .contenedor .articulos-blog .articulo h3{
+  text-align: left;
+  margin-bottom: 40px;
+  font-size: 50px;
+  margin-left: 20px;
+
+
+}
+
+/*COLOCACION IMAGEN ARTICULO 1*/
+.blog .contenedor .articulos-blog .articulo img{
+  width: 800px;
+  border: 1px solid #9e9e9e;
+  margin-left: 150px;
+  margin-bottom: 30px;
+  margin-top: 70px;
+
+}
+
+
+
+.blog .contenedor .articulos-blog .articulo p{
+  padding-bottom: 20px;
+  vertical-align: top;
+  text-align: justify;
+  margin-left: 20px;
+
+}
+
+
+.blog .contenedor .articulos-blog .articulo p a{
+  text-decoration: none;
+  color: blue;
+}
+
+
+
+
+.blog .contenedor .articulos-blog .articulo .imagenesweb{
+  background-color: white;
+  width: 1100px;
+  height: 500px;
+  overflow: auto;
+  border: 1px solid #9e9e9e;
+  margin-bottom: 30px;
+
+}
+
+.blog .contenedor .articulos-blog .articulo .imagenesweb img{
+  float: left;
+}
+
+
+
+/*VER PROYECTO*/
+.blog .contenedor .articulos-blog .articulo .ver-proyecto{
+  background-color: #e2f0fc;
+  text-align: center;
+  border: 1px solid #9e9e9e;
+  width: 180px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.blog .contenedor .articulos-blog .articulo .ver-proyecto p{
+  padding: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+
+
+}
+
+.blog .contenedor .articulos-blog .articulo .ver-proyecto p a{
+  color: #000000;
+  text-decoration: underline;
+}
+
+/*ANCHO DE PcpArtt Y HERRAMIENTAS*/
+.blog .contenedor .aside{
+  float: right;
+  width: 600px;
+}
+
+/*PCPARTT*/
+.blog .contenedor .aside .widget{
+  background: #fcfcfc;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border: 1px solid #9e9e9e;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.blog .contenedor .aside .widget .proyectos .datosproyectos .nombre{
+  text-align: center;
+  padding: 20px;
+}
+
+.blog .contenedor .aside .widget .proyectos .datosproyectos p{
+  text-align: justify;
+  padding: 10px 20px;
+}
+
+.blog .contenedor .aside .widget .proyectos .datosproyectos h3{
+  text-align: center;
+  padding: 30px;
+}
+
+.blog .contenedor .aside .widget .proyectos .LOGO img{
+  height: 200px;
+  weight: 200px;
+  margin-left: 200px;
+  border: 1px solid #9e9e9e;
+  border-radius: 50%;
+}
+
+/*HERAMIENTAS*/
+.blog .contenedor .aside .widget .datos-herramientas .nombre{
+  text-align: center;
+}
+
+.blog .contenedor .aside .widget .datos-herramientas ul{
+ text-align: center;
+ padding: 0px;
+ margin-top: 20px;
+}
+
+.blog .contenedor .aside .widget .datos-herramientas ul p{
+ text-align: center;
+ padding: 8px;
+ display: block;
+ border-bottom: 1px solid #dadada;
+ margin: 0px 140px;
+
+}
+
+/*VOLVER ARRIBA*/
+.VOLVERARRIBA p{
+  float: right;
+  margin-right: 20px;
+  padding-top: 22px;
+
+}
+
+.VOLVERARRIBA p a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.VOLVERARRIBA p a:hover{
+  color: white;
+}
+
+/*PIE DE PAGINA*/
+.footer{
+  background-color: #9ac4e8;
+  padding: 10px;
+  text-align: center;
+}
+/*CENTRADO*/
+.footer .piepaginatemas .contenedor1 ul{
+  list-style: none;
+  display: inline-block;
+}
+
+
+.footer .piepaginatemas .contenedor1 ul li{
+  display: inline-block;
+  margin: 5px 20px;;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: maxwell light;
+}
+
+
+.footer .piepaginatemas .contenedor1 ul li a {
+  display: inline-block;
+  padding: 5px 5px;
+  margin: 5px 30px;;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+
+
+/*AL PASAR RATON*/
+.footer .piepaginatemas .contenedor1 ul li a:hover{
+  color: #ffffff;
+}
+
+
+/*ICONOS*/
+.footer .piepaginatemas .contenedor2 ul{
+  list-style: none;
+  text-align: center;
+}
+
+
+.footer .piepaginatemas .contenedor2 ul li{
+  display: inline-block;
+}
+
+
+.footer .piepaginatemas .contenedor2 ul li a{
+ padding: 10px 10px;
+}
+
+.footer .piepaginatemas .contenedor2 ul li a img{
+  height: 35px;
+  weight: 35px;
+  margin-top: 20px;
+
+}
